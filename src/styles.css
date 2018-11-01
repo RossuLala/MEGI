@@ -9,12 +9,17 @@ html, body{
     height: 100%;
 }
 
+.nincs-keret {
+    margin: 0px;
+    padding: 0px; 
+    border: 0px;
+}
+
 /* IGÉNY INDUL */
 
 #program{
     background-color: #45525D;
     margin: 0px;
-    margin-top: 40px;
     padding: 0px;    
 }
 .program-tejek{
@@ -65,6 +70,58 @@ html, body{
 .program-nap{
     margin: 0px;
     padding: 0px;   
+}
+
+.program-ho{
+    margin: 0px;
+    padding: 0px;  
+}
+
+.program-szoveg{
+    height: 90px;
+    padding: 5px;
+    margin: 0px;
+    background-color: white;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.program-cim{
+    font-size: 1.5 rem;
+    margin: 0px;
+    padding: 0px;  
+}
+
+.program-leir{
+    margin: 0px;
+    padding: 0px;
+}
+
+.program-ertek{
+    width: 40px;
+    height: 90px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    vertical-align:middle;
+}
+
+.program-ertek-ikon{
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+}
+.rendelve{
+    background-color: #788794;
+    color: white;
+
+}
+
+.cimsor{
+    text-align: center;
+    vertical-align:middle;
+    margin: 0px;
+    padding: 0px;
 }
 
 
