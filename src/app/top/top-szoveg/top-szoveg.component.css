@@ -1,0 +1,20 @@
+#szoveg {
+    background-color: #45525D;
+    padding: 10px;
+    margin: 0px;
+    padding-bottom: 200px;
+    z-index: 9;
+}
+
+#megnev {
+    color: white;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+#leir {
+    color: #9AA4AD;
+    margin: 0px;
+    margin-bottom: 20px;
+}

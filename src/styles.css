@@ -1,1 +1,107 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: grey;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* IGÉNY INDUL */
+
+#program{
+    background-color: #45525D;
+    margin: 0px;
+    margin-top: 40px;
+    padding: 0px;    
+}
+.program-tejek{
+    background-color: #788794;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+.program-tejek-szov{
+    font-size: 0.9 rem;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;      
+}
+
+.program-sor{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;   
+}
+
+.program-kep{
+    width: 90px;
+    margin: 0px;
+    padding: 0px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.program-kep-file{
+    width: 90px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.program-indul{
+    text-align: center;
+    width: 50px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 8px;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.program-nap{
+    margin: 0px;
+    padding: 0px;   
+}
+
+
+.itn {
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#igen, .igen{
+    background-color: #66883F;
+    color: white;
+    transition: 0.5s;
+}
+
+#talan, .talan{
+    background-color: #F3C263;
+    color: white;
+    transition: 0.5s;
+}
+
+#nem, .nem {
+    background-color: #C82C2D;
+    color: white;
+    transition: 0.5s;
+}
+
+.bor{
+    margin: 0px;
+    padding: 0px;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.bor-u{
+    margin: 0px;
+    padding: 0px;
+    border-top: 1px solid white;
+}
+

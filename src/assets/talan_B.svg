@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="722" font-variant="normal" class="str0" style="fill-rule:nonzero" font-style="normal" font-weight="700">
+	<font-face 
+		font-family="Arial">
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="?" horiz-adv-x="610"><path d="M366.667 184.5l-124.5 0c-0.333453,17.9998 -0.50018,28.8331 -0.50018,32.8332 0,40.3333 6.66685,73.4999 20.0001,99.5 13.3333,26.1668 40.1665,55.3334 80.1668,87.9998 39.9998,32.5002 64,53.8337 71.6664,64 12.1666,15.8333 18.167,33.5001 18.167,52.6666 0,26.667 -10.667,49.5001 -32,68.6671 -21.3335,18.9998 -50.0003,28.4996 -86.1667,28.4996 -34.8335,0 -64,-9.99962 -87.5001,-29.833 -23.3333,-19.8334 -39.5001,-50.1666 -48.3335,-90.8333l-125.833 15.6666c3.49993,58.3331 28.3334,107.833 74.3331,148.5 46.1669,40.6667 106.5,60.9998 181.5,60.9998 78.6667,0 141.333,-20.6666 188,-61.833 46.4999,-41.1669 69.8333,-89.0002 69.8333,-143.833 0,-30.1669 -8.66669,-58.8333 -25.6666,-85.8333 -17.1667,-27 -53.667,-63.8333 -109.667,-110.334 -29.0003,-24.1665 -47.0001,-43.4997 -54,-58.1664 -7.00031,-14.6666 -10.1668,-40.8334 -9.49988,-78.6667zm-124.5 -184.5l0 137.167 137.167 0 0 -137.167 -137.167 0z"/></glyph>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";src:url("#FontID0") format(svg)}
+    .str0 {stroke-width:0.34}
+    .str1 {stroke:black;stroke-width:7.62}
+    .fil0 {fill:#9900CC}
+    .fnt0 {font-weight:bold;font-size:22671.9;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g transform="matrix(1.00002 0 0 1 -6910.74 8047.76)">
+   <text x="10500" y="14850"  class="fil0 str1 fnt0">?</text>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,46 @@
+#fej {
+    /*vertical-align:top;
+    position: fixed;*/
+    z-index: 10;
+
+}
+.fej  {
+    height: 40px;
+    background-color: #45525D;
+    margin: 0px;
+    padding: 0px;    
+    z-index: 10;
+}
+.fej-jobb{
+    text-align: right;
+    margin: 0px;
+    padding: 0px; 
+}
+
+.fej-bal{
+    text-align: left;
+    margin: 0px;
+    padding: 0px; 
+}
+
+#fej-jobb-kep{
+}
+
+#fej-bal-kep{
+}
+
+.fej-szoveg{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fej-szoveg-text{
+    font-size: 1rem;
+    color: white;
+    line-height: 40px; 
+    margin: 0px;
+    padding: 0px;    
+}
