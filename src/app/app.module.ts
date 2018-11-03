@@ -16,6 +16,7 @@ import { IgenyComponent } from './igeny/igeny.component';
 import { IndulComponent } from './indul/indul.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component'; 
 import { AppRoutingModule } from './app-routing.module';
+import { IgenyService } from './kozos/igeny.service';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { AppRoutingModule } from './app-routing.module';
     AppRoutingModule
   ],
   providers: [
-    ConfigService
+    ConfigService,
+    IgenyService
   ],
   bootstrap: [AppComponent]
 })

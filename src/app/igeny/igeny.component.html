@@ -6,153 +6,22 @@
                 <br>Értesítünk, ha az életkorodnak megfelő csoport is indul.</p>
         </div>
     </div>
-    <div class="row program-sor">
+
+
+    <div class="row program-sor"  *ngFor="let igeny of igenyek" >
         <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-01.jpg" alt="">
+            <img class="program-kep-file" [src]="igeny.kep" alt="">
         </div>
         <div class="program-szoveg col">
-            <h6 class="program-cim">ONLY ENGLISH</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H-P 19:00 - 6.000Ft</p>
+            <h6 class="program-cim">{{igeny.nev}}</h6>
+            <p class="program-leir">{{igeny.leir}}</p>
+            <p class="program-leir">{{igeny.hetNap}} {{igeny.kezdes}}-{{igeny.vege}} {{igeny.ar}}Ft</p>
             <p class="program-leir"></p>
         </div>
-        <div class="program-ertek col-auto igen">
-            <img class="program-ertek-ikon" src="assets/igen.svg" alt="">
+        <div class="program-ertek col-auto" [ngClass]='igeny.itn'>
+            <img class="program-ertek-ikon" src="assets/{{igeny.itn}}.svg" alt="">
         </div>
     </div>
 
-    <div class="row program-sor">
-        <div class="program-kep-file col-auto">
-            <img class="program-kep-file" src="assets/P-02.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">BLUES EST</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H-P 19:00 - 6.000Ft</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-ertek col-auto igen">
-            <img class="program-ertek-ikon igen" src="assets/igen.svg" alt="">
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-03.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">PAINTBAL</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H-P 19:00 - 6.000Ft</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-ertek col-auto igen">
-            <img class="program-ertek-ikon" src="assets/igen.svg" alt="">
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-04.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">CSOCSÓ</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H-P 19:00 - 6.000Ft</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-ertek col-auto talan">
-            <img class="program-ertek-ikon" src="assets/talan.svg" alt="">
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-05.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">KARAOKE</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H-P 19:00 - 6.000Ft</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-ertek col-auto talan">
-            <img class="program-ertek-ikon" src="assets/talan.svg" alt="">
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-06.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">ACTIVITY</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H-P 19:00 - 6.000Ft</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-ertek col-auto nem">
-            <img class="program-ertek-ikon" src="assets/nem.svg" alt="">
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-07.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">SUSHI</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H-P 19:00 - 6.000Ft</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-ertek col-auto nem">
-            <img class="program-ertek-ikon" src="assets/nem.svg" alt="">
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-08.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">TÁBORTŰZ - TÁBORVÍZ</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H-P 19:00 - 6.000Ft</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-ertek col-auto nem">
-            <img class="program-ertek-ikon " src="assets/nem.svg" alt="">
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep" src="assets/P-10.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">HAJÓKIRÁNDULÁS</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H-P 19:00 - 6.000Ft</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-ertek col-auto nem">
-            <img class="program-ertek-ikon " src="assets/nem.svg" alt="">
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep" src="assets/P-12.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">TÁNCOLJUNK</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H-P 19:00 - 6.000Ft</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-ertek col-auto nem">
-            <img class="program-ertek-ikon" src="assets/nem.svg" alt="">
-        </div>
-    </div>
 </div>
+
