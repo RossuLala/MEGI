@@ -11,8 +11,8 @@ import { TopSzovegComponent } from './top/top-szoveg/top-szoveg.component';
 import { TopCarouselComponent } from './top/top-carousel/top-carousel.component';
 import { TopItnComponent } from './top/top-itn/top-itn.component';
 import { MenuComponent } from './menu/menu.component';
-import { IgenyComponent } from './igeny-list/igeny.component';
-import { IndulComponent } from './indul-list/indul.component';
+import { IgenyListComponent } from './igeny-list/igeny-list.component';
+import { IndulListComponent } from './indul-list/indul-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 import { ConfigService } from './config.service';
@@ -29,8 +29,8 @@ import { IndulService } from './kozos/indul.service';
     TopCarouselComponent,
     TopItnComponent,
     MenuComponent,
-    IgenyComponent,
-    IndulComponent,
+    IgenyListComponent,
+    IndulListComponent,
     PageNotFoundComponent
   ],
   imports: [

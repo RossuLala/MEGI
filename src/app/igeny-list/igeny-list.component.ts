@@ -3,11 +3,11 @@ import { IgenyModel } from '../kozos/igeny-model';
 import { IgenyService } from '../kozos/igeny.service';
 
 @Component({
-    selector: 'app-igeny',
-    templateUrl: './igeny.component.html',
-    styleUrls: ['./igeny.component.css']
+    selector: 'app-igeny-list',
+    templateUrl: './igeny-list.component.html',
+    styleUrls: ['./igeny-list.component.css']
 })
-export class IgenyComponent implements OnInit {
+export class IgenyListComponent implements OnInit {
     public igenyek: IgenyModel[];
 
     constructor(private _igenyService: IgenyService) { 

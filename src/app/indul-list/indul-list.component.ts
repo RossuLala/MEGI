@@ -3,11 +3,11 @@ import { IndulService } from '../kozos/indul.service';
 import { IndulModel } from '../kozos/indul-model';
 
 @Component({
-  selector: 'app-indul',
-  templateUrl: './indul.component.html',
-  styleUrls: ['./indul.component.css']
+  selector: 'app-indul-list',
+  templateUrl: './indul-list.component.html',
+  styleUrls: ['./indul-list.component.css']
 })
-export class IndulComponent implements OnInit {
+export class IndulListComponent implements OnInit {
   public indulok: IndulModel[];
 
   constructor(private _indulService: IndulService) {
@@ -17,5 +17,4 @@ export class IndulComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

@@ -2,15 +2,15 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { TopComponent } from './top/top.component';
-import { IgenyComponent } from './igeny-list/igeny.component';
-import { IndulComponent } from './indul-list/indul.component';
+import { IgenyListComponent } from './igeny-list/igeny-list.component';
+import { IndulListComponent } from './indul-list/indul-list.component';
 import { MenuComponent } from './menu/menu.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 const routes: Routes = [
-    { path: 'igeny-list', component: IgenyComponent },
-    { path: 'indul-list', component: IndulComponent },
+    { path: 'igeny-list', component: IgenyListComponent },
+    { path: 'indul-list', component: IndulListComponent },
     { path: 'menu', component: MenuComponent },
     { path: 'top', component: TopComponent },
     { path: '', redirectTo: '/top', pathMatch: 'full' }, // csak akkor teljesen üres
@@ -25,8 +25,8 @@ const routes: Routes = [
 export class AppRoutingModule {
     static routableComponents = [
         TopComponent,
-        IgenyComponent,
-        IndulComponent,
+        IgenyListComponent,
+        IndulListComponent,
         MenuComponent,
         PageNotFoundComponent
     ];
