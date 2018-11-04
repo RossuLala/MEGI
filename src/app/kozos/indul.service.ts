@@ -68,7 +68,7 @@ export class IndulService {
         'ffMax': 40,
         'noRend': 13,
         'ffRend': 13,
-        'itn': 'igen'
+        'itn': 'talan'
       },
       {
         'id': 5,
@@ -83,7 +83,7 @@ export class IndulService {
         'ffMax': 40,
         'noRend': 13,
         'ffRend': 13,
-        'itn': 'igen'
+        'itn': 'talan'
       },
       {
         'id': 6,
@@ -98,7 +98,7 @@ export class IndulService {
         'ffMax': 40,
         'noRend': 13,
         'ffRend': 13,
-        'itn': 'igen'
+        'itn': 'nem'
       },
       {
         'id': 7,
@@ -113,7 +113,7 @@ export class IndulService {
         'ffMax': 40,
         'noRend': 13,
         'ffRend': 13,
-        'itn': 'igen'
+        'itn': 'nem'
       },
       {
         'id': 8,
@@ -128,7 +128,7 @@ export class IndulService {
         'ffMax': 40,
         'noRend': 13,
         'ffRend': 13,
-        'itn': 'igen'
+        'itn': 'nem'
       },
       {
         'id': 9,
@@ -143,7 +143,7 @@ export class IndulService {
         'ffMax': 40,
         'noRend': 13,
         'ffRend': 13,
-        'itn': 'igen'
+        'itn': 'nem'
       },
       {
         'id': 10,
@@ -158,7 +158,7 @@ export class IndulService {
         'ffMax': 40,
         'noRend': 13,
         'ffRend': 13,
-        'itn': 'igen'
+        'itn': 'nem'
       }
     ];
   }

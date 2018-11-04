@@ -5,174 +5,25 @@
                 Jelentkezni tudsz a korosztályodnak megfelelő induló programjainkra. </p>
         </div>
     </div>
-    <div class="row program-sor">
+
+    <div class="row program-sor" *ngFor="let indul of indulok">
         <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-01.jpg" alt="">
+            <img class="program-kep-file" [src]="indul.kep" alt="">
         </div>
         <div class="program-szoveg col">
-            <h6 class="program-cim">ONLY ENGLISH</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H:30-35 U:30-40 - 6.000</p>
+            <h6 class="program-cim">{{indul.nev}}</h6>
+            <p class="program-leir">{{indul.leir}}</p>
+            <p class="program-leir">
+              H:{{indul.noMin}}-{{indul.noMax}} U:{{indul.ffMin}}-{{indul.ffMax}} - {{indul.ar}}Ft
             <p class="program-leir"></p>
         </div>
-        <div class="program-indul col-auto igen">
+        <div class="program-indul col-auto" [ngClass]='indul.itn'>
             <h6 class="program-ho">AUG</h6>
             <h5 class="program-nap">27</h5>
             <h6 class="program-ho">CSÜ</h6>
         </div>
     </div>
 
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-02.jpg" alt="">
-        </div>
-        <div class="program-szoveg rendelve col">
-            <h6 class="program-cim">BLUES EST</h6>
-            <p class="program-leir">Hobo Blues Band </p>
-            <p class="program-leir">MEGRENDELTED</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-indul col-auto igen">
-            <h6 class="program-ho">AUG</h6>
-            <h5 class="program-nap">01</h5>
-            <h6 class="program-ho">CSÜ</h6>
-        </div>
-    </div>
 
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-03.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">PAINTBAL</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H:30-35 U:30-40 - 6.000</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-indul col-auto talan">
-            <h6 class="program-ho">AUG</h6>
-            <h5 class="program-nap">07</h5>
-            <h6 class="program-ho">CSÜ</h6>
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-04.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">CSOCSÓ</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H:30-35 U:30-40 - 6.000</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-indul col-auto nem">
-            <h6 class="program-ho">AUG</h6>
-            <h5 class="program-nap">09</h5>
-            <h6 class="program-ho">CSÜ</h6>
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-05.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">KARAOKE</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H:30-35 U:30-40 - 6.000</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-indul col-auto nem">
-            <h6 class="program-ho">AUG</h6>
-            <h5 class="program-nap">10</h5>
-            <h6 class="program-ho">PÉN</h6>
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-06.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">ACTIVITY</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H:30-35 U:30-40 - 6.000</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-indul col-auto nem">
-            <h6 class="program-ho">AUG</h6>
-            <h5 class="program-nap">11</h5>
-            <h6 class="program-ho">SZO</h6>
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-07.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">SUSHI</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H:30-35 U:30-40 - 6.000</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-indul col-auto nem">
-            <h6 class="program-ho">AUG</h6>
-            <h5 class="program-nap">12</h5>
-            <h6 class="program-ho">VAS</h6>
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-08.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">TÁBORTŰZ - TÁBORVÍZ</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H:30-35 U:30-40 - 6.000</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-indul col-auto nem">
-            <h6 class="program-ho">AUG</h6>
-            <h5 class="program-nap">13</h5>
-            <h6 class="program-ho">HÉT</h6>
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-10.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">HAJÓKIRÁNDULÁS</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H:30-35 U:30-40 - 6.000</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-indul col-auto nem">
-            <h6 class="program-ho">AUG</h6>
-            <h5 class="program-nap">14</h5>
-            <h6 class="program-ho">KED</h6>
-        </div>
-    </div>
-
-    <div class="row program-sor">
-        <div class="program-kep col-auto">
-            <img class="program-kep-file" src="assets/P-12.jpg" alt="">
-        </div>
-        <div class="program-szoveg col">
-            <h6 class="program-cim">TÁNCOLJUNK</h6>
-            <p class="program-leir">Ismerkedjünk angolul! </p>
-            <p class="program-leir">H:30-35 U:30-40 - 6.000</p>
-            <p class="program-leir"></p>
-        </div>
-        <div class="program-indul col-auto nem">
-            <h6 class="program-ho">AUG</h6>
-            <h5 class="program-nap">15</h5>
-            <h6 class="program-ho">SZE</h6>
-        </div>
-    </div>
 </div>
 >
