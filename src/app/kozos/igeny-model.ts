@@ -6,7 +6,7 @@ export class IgenyModel {
     hetNap: string;
     kezdes: number;
     vege: number;
-    ar: number; 
+    ar: number;
     itn: string;
 
     constructor(parameter?: IgenyModel){
@@ -14,10 +14,6 @@ export class IgenyModel {
             Object.assign(this, parameter);
         }
     }
-
-    proba(){
-        console.log('dudu');
-      }
 }
 // new IgenyModel() segítségével lehet meghívni
 

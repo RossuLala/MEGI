@@ -97,7 +97,7 @@ export class IgenyService {
                 'vege': 21,
                 'ar': 6000,
                 'itn': 'nem'
-            },     
+            },
             {
                 'id': 9,
                 'nev': 'HAJÓKIRÁNDULÁS',
@@ -119,10 +119,12 @@ export class IgenyService {
                 'vege': 21,
                 'ar': 6000,
                 'itn': 'nem'
-            }                    
+            }
         ];
     }
+
     getAllIgeny(): IgenyModel[] {
-        return this._igenyek;
-      }
+      return this._igenyek;
+    }
+
 }

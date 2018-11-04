@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CollapseModule } from 'ngx-bootstrap';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { TopComponent } from './top/top.component';
@@ -10,14 +11,13 @@ import { TopSzovegComponent } from './top/top-szoveg/top-szoveg.component';
 import { TopCarouselComponent } from './top/top-carousel/top-carousel.component';
 import { TopItnComponent } from './top/top-itn/top-itn.component';
 import { MenuComponent } from './menu/menu.component';
-
-import { ConfigService } from './config.service';
 import { IgenyComponent } from './igeny/igeny.component';
 import { IndulComponent } from './indul/indul.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component'; 
-import { AppRoutingModule } from './app-routing.module';
-import { IgenyService } from './kozos/igeny.service';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
+import { ConfigService } from './config.service';
+import { IgenyService } from './kozos/igeny.service';
+import { IndulService } from './kozos/indul.service';
 
 @NgModule({
   declarations: [
@@ -40,7 +40,8 @@ import { IgenyService } from './kozos/igeny.service';
   ],
   providers: [
     ConfigService,
-    IgenyService
+    IgenyService,
+    IndulService
   ],
   bootstrap: [AppComponent]
 })
